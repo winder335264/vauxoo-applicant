@@ -1,13 +1,18 @@
-"""
-Clase en python que suma una lista de numeros
+​"""
+clase que suma una lista de numeros
 """
 
 
 class CalculatorClass(object):
+    """
+    Class con la suma
+    """
 
     def sum(self, num_list):
-
-        suma = 0
+        """
+        Metodo para sumar
+        """
+        total = 0
         for number in num_list:
-            suma += number
-        return suma
+            total += number
+        return total​
