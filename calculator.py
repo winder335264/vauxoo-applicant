@@ -8,7 +8,7 @@ class CalculatorClass(object):
     Clase suma
     """
 
-    def sum(self, num_list):
+    def sum(self,num_list):
         """
         Metodo para sumar
         """
