@@ -8,11 +8,12 @@ class CalculatorClass(object):
     Clase suma
     """
 
-    def sum(self,num_list):
+    def sum(self, num_list):
         """
         Metodo para sumar
         """
-        suma = 0
+        total = 0
         for number in num_list:
-            suma += number
-        return suma​
+            total += number
+        return total​
+
