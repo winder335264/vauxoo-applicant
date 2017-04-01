@@ -35,4 +35,15 @@ INSERT INTO employee (id,first_name,last_name,id_department,id_boss) VALUES
 (3,'Rosa','Olmedo',4,1),
 (4,'Wilmer','Yepez',5,1);
 
+CREATE TABLE employee_hobby (
+  id integer PRIMARY KEY,
+  name varchar (60),
+  description varchar (150)
+);
+
+INSERT INTO employee_hobby (id,name,description) VALUES
+(1,'bailar','estimula el sentido de la responsabiliadad'),
+(2,'Fotografia','tomar fotos'),
+(3,'correr','te ayuda a relajarte y mantener en forma');  
+
 -- ...
