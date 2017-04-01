@@ -15,7 +15,7 @@ class PrimeClass(object):
         if num_int <= 1:
             return False
         else:
-            for divisor in xrange(2, num_int):
+            for divisor in range(2, num_int):
                 if num_int % divisor == 0:
                     return False
             return True
