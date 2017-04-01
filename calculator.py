@@ -9,5 +9,5 @@ class CalculatorClass(object):
 
         suma = 0
         for number in num_list:
-           suma += number
+            suma += number
         return suma
