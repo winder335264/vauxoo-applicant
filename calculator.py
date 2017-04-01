@@ -1,18 +1,18 @@
-​"""
-clase que suma una lista de numeros
+"""
+Modulo suma
 """
 
 
 class CalculatorClass(object):
     """
-    Class con la suma
+    Clase suma
     """
 
     def sum(self, num_list):
         """
         Metodo para sumar
         """
-        total = 0
+        suma = 0
         for number in num_list:
-            total += number
-        return total​
+            suma += number
+        return suma​
